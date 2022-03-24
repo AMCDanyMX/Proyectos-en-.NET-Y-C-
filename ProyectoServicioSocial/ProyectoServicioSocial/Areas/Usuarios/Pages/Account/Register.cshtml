@@ -1,0 +1,52 @@
+﻿@page "/Usuario/Register/{data?}"
+@model ProyectoServicioSocial.Areas.Usuarios.Pages.Account.RegisterModel
+@{ ViewData["Title"] = "Registro";
+
+}
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Registar Proyecto Servicio Social</h3>
+                </div>
+                <img src="https://ingenieriasuaz.com/wp-content/uploads/2017/10/LOGO_INGENIERIA_ELECTRICA_OF.png" class="mx-auto w-50" />
+
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="Input.UserName" placeholder="UserName" class="form-control" />
+                            <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <select id="SelTipoU" asp-items="@(new SelectList(Model.roles,"Id","Name"))" asp-for="Input.TipoUsuarioId" class="form-control">
+                                <option value="" selected disabled>...Seleccione Tipo de Usuario..</option>
+                            </select>
+                            <span asp-validation-for="Input.TipoUsuarioId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            @*<label asp-for="Input.Password"></label>*@
+                            <input asp-for="Input.Password" placeholder="Password" class="form-control" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+
+                            <input asp-for="Input.ConfirmPassword" placeholder="ConfirmPassword" class="form-control" />
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+
+                    </form>
+                    <label id="MessageError" class="text-danger">@Html.DisplayFor(m => m.Input.ErrorMessage)</label>
+                    <label id="UsuarioR" class="text-info">@Html.DisplayFor(m => m.Input.ErrorMessage)</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

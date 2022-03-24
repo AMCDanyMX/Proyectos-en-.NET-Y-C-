@@ -1,0 +1,11 @@
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.exe
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.deps.json
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.runtimeconfig.json
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.runtimeconfig.dev.json
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.dll
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\bin\Debug\netcoreapp3.1\AlgebraMatricial.pdb
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\obj\Debug\netcoreapp3.1\AlgebraMatricial.csprojAssemblyReference.cache
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\obj\Debug\netcoreapp3.1\AlgebraMatricial.AssemblyInfoInputs.cache
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\obj\Debug\netcoreapp3.1\AlgebraMatricial.AssemblyInfo.cs
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\obj\Debug\netcoreapp3.1\AlgebraMatricial.dll
+C:\Ingenieria de software\4to semestre\programacion visual .NET\Cuadernillo Arreglos\Programa 1\AlgebraConMatrices\AlgebraMatricial\obj\Debug\netcoreapp3.1\AlgebraMatricial.pdb
